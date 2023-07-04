@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
 </head>
 <body>
   <!--====================
@@ -23,7 +24,9 @@
             <div class="container">
               <a class="navbar-brand" href="#">
                 <div class="logo">
-                    <img src="./images/logo for portfolio.png" alt="#">
+                    <a href="#main_menu">
+                      <img class="w-100" src="./images/logo for portfolio.png" alt="#">
+                    </a>
                 </div>
               </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -122,7 +125,7 @@
   ===== Process start =====
   =====================-->
 
-  <section id="process">
+  <!-- <section id="process">
     <div class="container">
       <div class="row">
         <div class="col-lg-4">
@@ -156,7 +159,7 @@
           </div>
         </div>
     </div>
-  </section>
+  </section> -->
 
   <!--====================
   ===== Process end =====
@@ -210,8 +213,8 @@
   =====================-->
 
   <section id="portfolio">
-    <img class="protfolio_side_img_1" src="./images/portfolio_side_img.png" alt="#">
-    <img class="protfolio_side_img_2" src="./images/portfolio_side_img_2.png" alt="#">
+    <img class="protfolio_side_img_1 " src="./images/portfolio_side_img.png" alt="#">
+    <img class="protfolio_side_img_2 " src="./images/portfolio_side_img_2.png" alt="#">
     <div class="tittle">
       <h5>portfolio</h5>
       <h3>My Amazing Works</h3>
@@ -294,7 +297,7 @@
         </div>
         <div class="col-lg-6">
           <div class="right_img">
-            <img src="./images/skill_update_img.jpg" alt="#" class="skill_update_img">
+            <img src="./images/skill_update_img.jpg" alt="#" class="w-100 skill_update_img">
           </div>
         </div>
       </div>
@@ -309,8 +312,8 @@
   =====================-->
 
     <section id="services">
-      <img src="./images/services_side_img1.png" alt="" class="services_side_img">
-      <img src="./images/services_side_img2.png" alt="" class="services_side_img2">
+      <img src="./images/services_side_img1.png" alt="" class="w-100 services_side_img">
+      <img src="./images/services_side_img2.png" alt="" class="w-100 services_side_img2">
       <div class="tittle">
         <h5>Services</h5>
         <h3>What I Do for Clients</h3>
@@ -321,8 +324,8 @@
           <div class="col-lg-6">
             <div class="main_box">
               <div class="img_left">
-                <img src="./images/web_logo.svg" alt="#" class="skill_logo">
-                <img src="./images/background_img1.png" alt="#" class="skill_bg">
+                <img src="./images/web_logo.svg" alt="#" class="w-100 skill_logo">
+                <img src="./images/background_img1.png" alt="#" class="w-100 skill_bg">
               </div>
               <div class="text_right">
                 <h4>Web deasign</h4>
@@ -334,8 +337,8 @@
           <div class="col-lg-6">
             <div class="main_box">
               <div class="img_left">
-                <img src="./images/develop_logo.svg" alt="#" class="skill_logo">
-                <img src="./images/background_img4.png" alt="#" class="skill_bg">
+                <img src="./images/develop_logo.svg" alt="#" class="w-100 skill_logo">
+                <img src="./images/background_img4.png" alt="#" class="w-100 skill_bg">
               </div>
               <div class="text_right">
                 <h4>Web Development</h4>
@@ -347,8 +350,8 @@
           <div class="col-lg-6">
             <div class="main_box">
               <div class="img_left">
-                <img src="./images/uiux_logo.svg" alt="#" class="skill_logo">
-                <img src="./images/background_img3.png" alt="#" class="skill_bg">
+                <img src="./images/uiux_logo.svg" alt="#" class="w-100 skill_logo">
+                <img src="./images/background_img3.png" alt="#" class="w-100 skill_bg">
               </div>
               <div class="text_right">
                 <h4>Ui/Ux</h4>
@@ -437,6 +440,118 @@
   <!--=========================
   ===== TESTIMONIYAL End ====
   ==========================-->
+
+  <!--=========================
+  ===== FAQ Start ====
+  ==========================-->
+
+  <section id="faq">
+    <div class="tittle">
+      <h3>FAQ</h3>
+      <p>Need answer? Find them here....</p>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="left_side"></div>
+        </div>
+        <div class="col-lg-6">
+          <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                  How much does a new website cost? ...
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                <div class="accordion-body">
+                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                  Do you only create WordPress websites? ...
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                  Will you maintain my site for me? ...
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                  How long does it take to build a website? ...
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                  How long does it take to build a website? ...
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFive">
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingSix">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false" aria-controls="panelsStayOpen-collapseSix">
+                  What if I need help on my site down the road? ...
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSix">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingSeven">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSeven" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                  Who hosts the website?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseSeven" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSeven">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!--=========================
+  ===== FAQ End ====
+  ==========================-->
+
   <!--=========================
   ===== Contact START ====
   ==========================-->
@@ -450,7 +565,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-3">
-            <img style="max-width: 100%; max-height: 100%;" src="./images/logo for portfolio.png" alt="">
+            <img class="w-100" src="./images/logo for portfolio.png" alt="">
           </div>
           <div class="col-lg-3">
             <div class="info">
@@ -460,7 +575,7 @@
                 </div>
                 <div class="dtls">
                   <h3>Address</h3>
-                  <p>20, Somewhere in world</p>
+                  <p>Bangladesh</p>
                 </div>
               </div>
               <div class="item">
@@ -523,8 +638,12 @@
   <!--=========================
   ===== TESTIMONIYAL START ====
   ==========================-->
+  <!--=========================
+  ===== TESTIMONIYAL START ====
+  ==========================-->
     
     <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/tilt.jquery.js"></script>
     <script src="./js/slick.min.js"></script>
     <script src="./js/jquery.barfiller.js"></script>
     <script src="./js/wow.min.js"></script>

@@ -100,16 +100,15 @@ body{
 #main_menu.fixd_menu a{
    color: #fff;
 }
-
 #main_menu .logo{
    max-width: 250px;
    max-height: 150px;
    margin-left: -30px;
 }
-#main_menu .logo img{
+/* #main_menu .logo img{
    max-width: 100%;
    max-height: 100%;
-}
+} */
 #main_menu a{
    font-size: 18px;
    font-weight: 500;
@@ -262,7 +261,7 @@ body{
 /*=====================
   ==== Process start ==
   =====================*/
-  #process{
+  /* #process{
    padding: 100px 0 0 0;
    background-color: #2b2d33;
   }
@@ -297,7 +296,7 @@ body{
    font-weight: 500;
    color: aliceblue;
    margin-top: 30px;
-  }
+  } */
 
 /*=====================
   ==== Process end =====
@@ -431,6 +430,7 @@ body{
  padding: 10px 15px;
  margin: 0 20px;
  border-radius: 30px;
+ cursor: pointer;
 }
 .protfolio_img{
  display: flex;
@@ -570,17 +570,19 @@ body{
    color: #fff;
    margin-top: 20px;
 }
-#services .services_side_img{
+#services .services_side_img {
    position: absolute;
    top: -70px;
    left: 0;
-   
+   width: 400px !important;
+   opacity: 50%;
 }
 #services .services_side_img2{
    position: absolute;
    bottom: 10px;
    right: 0;
-   
+   width: 400px !important;
+   opacity: 50%;
 }
 /*=====================
   ==== SERVICES END =====
@@ -630,11 +632,28 @@ body{
 ============================*/
 
 /*=============================
+==== FAQ Start =====
+============================*/
+#faq{
+   background-color: #2b2d33;
+   padding-top: 100px;
+}
+#faq .accordion-button:not(.collapsed) {
+   background-color: #FF8C00;
+}
+#faw .accordion-button:focus{
+   border-color: #FF8C00 !important;
+}
+/*=============================
+==== FAQ END =====
+============================*/
+
+/*=============================
 ==== Contact Start =====
 ============================*/
-#contact{
-   background-color: #2b2d33;
-   padding: 200px 0 100px 0px;
+#contact {
+	background-color: #2b2d33;
+	padding: 100px 0 100px 0px;
 }
 #contact .tittle{
    margin-bottom: 100px;
@@ -682,6 +701,7 @@ form input{
    font-weight: 400;
    border: 2px solid #fff;
    color: #fff;
+   width: 100%;
 }
 #feedback{
    display: block;

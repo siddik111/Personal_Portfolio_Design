@@ -86,3 +86,17 @@ $('.slider_1').slick({
     // instead of a settings object
   ]
 });
+
+
+
+// tilt js
+const tilt = $('.js-tilt').tilt();
+
+// Destroy instance
+tilt.tilt.destroy.call(tilt);
+
+// Get values of instance
+tilt.tilt.getValues.call(tilt); // returns [{},{},etc..]
+
+// Reset instance
+tilt.tilt.reset.call(tilt);

@@ -1,0 +1,226 @@
+
+@media (min-width: 320px) and (max-width: 767.98px) {
+.btn {
+	padding: 10px 15px;
+}
+.tittle h5 {
+	font-size: 14px;
+}
+.tittle h3 {
+	font-size: 29px;
+}
+.tittle p {
+	font-size: 14px;
+	padding: 30px 0px;
+}
+/* Common Css end */
+/* Navbar part Start.......... */
+
+#main_menu .w-100 {
+	width: 60% !important;
+}
+
+/* Navbar part End......... */
+
+/* Banner part Start......... */
+#banner .banner_left h5 {
+	font-size: 14px;
+}
+#banner .banner_left h2 {
+	font-size: 28px;
+}
+#banner .banner_left {
+	font-size: 20px;
+}
+#typed2 {
+	font-size: 28px;
+}
+#banner .banner_left p {
+	font-size: 14px;
+	margin: 30px 0;
+	letter-spacing: 2px;
+}
+#banner .btn a {
+	font-size: 14px;
+	padding: 0 0;
+}
+#banner .banner_left ul li a {
+	font-size: 20px;
+	margin-right: 5px;
+}
+#banner .banner_right img {
+	margin-top: -45px;
+}
+#banner .banner_right .banner_bg {
+	max-width: 280px;
+	margin-top: 15px;
+}
+#banner .banner_right .side_img1 {
+	max-width: 55px;
+}
+#banner .banner_right .side_img3 {
+	max-width: 55px;
+}
+#banner .banner_right .side_img2 {
+	max-width: 90px;
+}
+
+/* Banner part End......... */
+
+/* Abour part Start......... */
+#about .about_side_img {
+	max-width: 80px;
+}
+#about .about_left {
+	position: relative;
+	margin-top: -100px;
+}
+#about .about_left .about_img {
+	max-width: 285px;
+}
+#about .about_left .side_box1 span {
+	font-size: 14px;
+	padding: 0 20px;
+}
+#about .about_left .side_box1 {
+	max-width: 105px;
+	padding: 10px;
+	top: 5px;
+	left: -11px;
+}
+#about .about_left .side_box1 h4 {
+	font-size: 29px;
+}
+#about .about_left .side_box1 span {
+	font-size: 14px;
+	padding: 0 8px;
+}
+#about .about_left .side_box2 span {
+	font-size: 14px;
+	padding: 0px 8px;
+}
+#about .about_left .side_box2 h4 {
+	font-size: 29px;
+}
+#about .about_left .side_box2 {
+	max-width: 105px;
+	bottom: 10px;
+	right: -10px;
+}
+#about .about_right {
+	margin-left: 0;
+}
+#about .about_right h4 {
+	font-size: 14px;
+	margin-bottom: 15px;
+}
+#about .about_right h3 {
+	font-size: 29px;
+	padding-right: 0px;
+}
+#about .about_right p {
+	font-size: 14px;
+	padding-right: 0;
+	line-height: 20px;
+}
+/* About part End......... */
+
+/* Portfolio part Start......... */
+#portfolio {
+	padding: 0 0 0 0;
+	margin-top: -45px;
+}
+.protfolio_side_img_1 {
+	position: absolute;
+	top: 60px;
+	left: -45px;
+}
+#portfolio .protfolio_btn {
+	margin: 20px 0;
+}
+#portfolio .protfolio_btn ul{
+    width: 100%;
+    margin-left: -20px;
+}
+#portfolio .protfolio_btn ul li {
+	padding: 6px 8px;
+	margin: 0 5px;
+	font-size: 8px;
+}
+#portfolio .tittle p {
+	font-size: 14px;
+	padding: 30px 0px;
+	width: auto;
+}
+
+
+/* Portfolio part End......... */
+
+/* Skikll Update part Start......... */
+#skill_update {
+	padding-top: 20px;
+}
+/* Skill Update part End......... */
+
+/* Service part Start......... */
+
+#services .main_box .img_left .skill_logo {
+	top: 18%;
+	left: 30%;
+}
+#services .main_box .img_left .skill_bg {
+	top: 18%;
+	left: 30%;
+}
+#services .main_box .text_right h4 {
+	font-size: 18px;
+	margin-top: 10px;
+}
+#services .main_box .text_right p {
+	font-size: 13px;
+	color: #fff;
+	margin-top: 20px;
+}
+
+/* Service part End......... */
+
+/* Testimonial part Start......... */
+#testimonial .clients_rvw .slider_item p {
+	padding: 20px 0;
+	font-size: 14px;
+}
+#testimonial .client_bg {
+	top: 300px;
+	display: none;
+}
+#testimonial .clients_rvw .clients_dtl .client_img {
+	margin-right: 15px;
+}
+/* Testimonial part End......... */
+
+/* Contact part Start......... */
+#contact .info .item .icone {
+	margin-left: 20px;
+}
+form input {
+	border-radius: 20px;
+	margin-top: 30px;
+	padding: 10px 20px;
+	font-size: 14px;
+    width: 100%;
+}
+#contact .info .item h3 {
+	font-size: 18px;
+}
+#contact .info .item p {
+	font-size: 14px;
+	margin-left: 10px;
+}
+/* Maping part Start......... */
+#maping {
+	padding-bottom: 20px;
+}
+/* Maping part End......... */
+/* Contact part End......... */
+
+}
